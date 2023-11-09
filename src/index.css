@@ -1,0 +1,33 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  font-family: "Nunito", sans-serif;
+  background-color: #fff;
+  font-size: 18px;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+@media (max-width: 1199px) {
+  body {
+    font-size: 17px;
+    font-style: 0.94444rem;
+  }
+}
+
+@media (max-width: 991px) {
+  body {
+    font-size: 16px;
+    font-style: 0.88889rem;
+  }
+}
+
+p {
+  color: #767878;
+  line-height: 1.8em;
+}

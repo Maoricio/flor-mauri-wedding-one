@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f9f3874e.css",
+    "main.js": "/static/js/main.9a0c4f7d.js",
+    "static/media/nothing-stop-us.mp3": "/static/media/nothing-stop-us.15708b9fc3e7733924f2.mp3",
+    "static/media/w1.jpeg": "/static/media/w1.b39730828bd00b1eb71d.jpeg",
+    "static/media/w9.jpeg": "/static/media/w9.bb7e044f6690abe441db.jpeg",
+    "static/media/w4.jpeg": "/static/media/w4.3e901dfe630850d15783.jpeg",
+    "static/media/foto-juntos.jpeg": "/static/media/foto-juntos.3bf247ef0b79c74517af.jpeg",
+    "static/media/w2.jpeg": "/static/media/w2.3b262b3f2523c2432f69.jpeg",
+    "static/media/w5.jpeg": "/static/media/w5.26c84bc7b11f5757f1f6.jpeg",
+    "static/media/w8.jpeg": "/static/media/w8.3c20bf0cae44250b991e.jpeg",
+    "static/media/w3.jpeg": "/static/media/w3.bb6a85b188572d405f23.jpeg",
+    "static/media/w7.jpeg": "/static/media/w7.7922ecac47e88136b1d0.jpeg",
+    "static/media/la-guadalupe.jpeg": "/static/media/la-guadalupe.9247edc88d8117cf7f0f.jpeg",
+    "static/media/w6.jpeg": "/static/media/w6.3f1ab35d86ccbad19c0d.jpeg",
+    "static/media/invitation.gif": "/static/media/invitation.7b2bc8282f7c18250370.gif",
+    "static/media/rings.png": "/static/media/rings.18bc57d5c1941e90e661.png",
+    "static/media/food.gif": "/static/media/food.24b4692c05d8c76fc603.gif",
+    "static/media/present.gif": "/static/media/present.87e535a5676b2c737fd1.gif",
+    "static/media/twoHearts.gif": "/static/media/twoHearts.9f9db83851e8eeb2a454.gif",
+    "static/media/libMusic.gif": "/static/media/libMusic.03c80b07739d2fb6a4f4.gif",
+    "index.html": "/index.html",
+    "main.f9f3874e.css.map": "/static/css/main.f9f3874e.css.map",
+    "main.9a0c4f7d.js.map": "/static/js/main.9a0c4f7d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9f3874e.css",
+    "static/js/main.9a0c4f7d.js"
+  ]
+}
