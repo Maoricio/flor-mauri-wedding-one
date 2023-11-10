@@ -5,7 +5,7 @@ import { useCountdown } from "./useCountdown";
 
 export const Clock = () => {
   const { days, hours, minutes, seconds } = useCountdown(
-    new Date("02-10-2024 18:00:00 GMT-0300")
+    new Date("2024-02-10T18:00:00-03:00")
   );
   return (
     <Box
