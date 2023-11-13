@@ -7,7 +7,6 @@ import {
   Button,
   VStack,
   Heading,
-  Flex,
   Text,
   Image,
   HStack,
@@ -56,7 +55,10 @@ export const InvitationForm = () => {
       canciones: allSongs.map((song) => removeWhiteSpace(song)),
     };
 
-    const q = query(listadoCasamientoRef, where("nroDNI", "==", nroDNI));
+    const q = query(
+      listadoCasamientoRef,
+      where("dni", "==", newInvitation.dni)
+    );
     const querySnapshot = await getDocs(q);
 
     if (!querySnapshot.empty) {
@@ -139,10 +141,11 @@ export const InvitationForm = () => {
 
         {!isLoading && !successMsg && (
           <VStack alignItems={"flex-start"} mb={"25px"}>
-            <Flex
+            <VStack
               justifyContent={"center"}
               alignItems={"center"}
               width={"100%"}
+              mb={"25px"}
             >
               <Heading
                 fontFamily={"Poppins"}
@@ -155,7 +158,10 @@ export const InvitationForm = () => {
               >
                 Confirma tu asistencia
               </Heading>
-            </Flex>
+              <Text fontSize={"20px"} fontWeight={900} color={"#5e9a8e"}>
+                Por favor, confirmanos antes del 10 de Enero
+              </Text>
+            </VStack>
 
             <form style={{ width: "100%" }} onSubmit={handleSubmit(onSubmit)}>
               <FormControl mb={"20px"}>
@@ -269,7 +275,7 @@ export const InvitationForm = () => {
           <VStack>
             <Alert status="error">
               <AlertIcon />
-              El DNI ingresado ya se encuentra registrado
+              El DNI ingresado ya se encuentra confirmado
             </Alert>
           </VStack>
         )}
