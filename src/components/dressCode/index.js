@@ -31,7 +31,10 @@ export const DressCode = () => {
         <VStack gap={0}>
           <Heading fontFamily={"Nunito"}>Formal</Heading>
           <Text maxW={"400px"} textAlign={"center"}>
-            Por favor, evitar vestirse de blanco y sus tonalidades
+            Evitar el blanco para las mujeres. Sí, sí, sabemos que todas son
+            unas diosas, ¡pero dejemos que la novia brille con su blanco
+            radiante en su día especial! Así que, por favor, guarden esos
+            vestidos blancos para otra ocasión.
           </Text>
         </VStack>
       </VStack>
