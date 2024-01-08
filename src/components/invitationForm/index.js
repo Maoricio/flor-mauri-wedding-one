@@ -159,7 +159,7 @@ export const InvitationForm = () => {
                 Confirma tu asistencia
               </Heading>
               <Text fontSize={"20px"} fontWeight={900} color={"#5e9a8e"}>
-                Por favor, confirmanos antes del 10 de Enero
+                Por favor, confirmanos antes del 20 de Enero
               </Text>
             </VStack>
 
