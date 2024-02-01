@@ -12,7 +12,6 @@ import {
   SharePhotos,
   PhotosGallery,
   Present,
-  InvitationForm,
   Contact,
 } from "./components";
 import "./App.css";
@@ -31,7 +30,6 @@ const App = () => {
       <SharePhotos />
       <PhotosGallery />
       <Present />
-      <InvitationForm />
       <Contact />
     </ChakraProvider>
   );
